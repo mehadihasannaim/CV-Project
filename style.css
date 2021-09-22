@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #EEE;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    max-width: 800px;
+    background-color: #E4F9F5;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+img{
+    width: 80px;
+    height: 120px;
+    border: 5px solid white;
+    border-radius: 50%;
+    float: left;
+    
+}
+
+.header-bio{
+    float: left;
+    padding: 30px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: #11999e;
+    
+}
+
+.header-contact{
+    float: right;
+    padding: 30px;
+}
+
+.header-contact a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+}
+
+.header-contact a:hover{
+    color: tomato;
+    text-decoration: underline;
+}
+
+.div-clear{
+    clear: both;
+}
+
+hr{
+    border: solid black 2.8px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+
+.left-div{
+    width: 30%;
+    float: left;
+}
+
+.right-div{
+    width: 70%;
+    float: right;
+}
+
+.right-div p{
+    margin: 4px;
+}
+
+
+.common-hr{
+    border: 1px solid black;
+    border-bottom: none;
+    width: 100%;
+    border-left: none;
+    border-right: none;
+    margin: 20px auto;
+}
+
+.content{
+    margin-bottom: 30px;
+}
+
+li{
+    list-style-type: none;
+}
+
+.p-skills{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 1.3rem;
+}
+
+
+.l-div{
+    float: left;
+    width: 45%;
+}
+.r-div{
+    width: 45%;
+    float: left;
+}
+
+
+
+u{
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+
+
+.l-sec{
+    width: 100%;
+    float: left;
+}
+/* .r-sec{
+    width: 45%;
+    float: right;
+} */
+
+#line{
+    display: inline;
+}
+
+footer{
+    
+    background-color: black;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+    border-radius: 7px;
+}
+
+
+footer a{
+    color: white;
+    font-weight: lighter;
+    margin: 15px;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+footer p{
+    color: white;
+    font-weight: lighter;
+    margin-top: 7px;
+    font-weight: lighter;
+    font-size: 1.2rem;
+    
+   
+}
+
+
+footer a:hover{
+    text-decoration: underline;
+    color: gray;
+    font-weight: bold;
+}
+
+footer p:hover{
+    color:red;
+}
+
+.l-r{
+    width: 55%;
+    float: left;
+}
+.r-r{
+    width: 45%;
+    float: left;
+}
+
+
+.footer-link{
+    width: 50%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.developer{
+    float: right;
+    width: 50%;
+    margin-top: 08px;
+}
+
+
+footer::after{
+    display: table;
+    content: '';
+    clear: both;
+}
